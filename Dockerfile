@@ -1,5 +1,6 @@
 # 基础镜像，尽量和你开发的 JDK 版本一致
-FROM openjdk:21-jdk-slim
+FROM openjdk:21-slim
+
 
 # 作者
 LABEL maintainer="user"
